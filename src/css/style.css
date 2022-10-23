@@ -15,7 +15,9 @@ html{
     margin: auto;
 }
 
-
+.dark-theme{
+    color: black;
+}
 /* navbar styling */
 
 .navbar {
@@ -46,9 +48,8 @@ html{
 
 .navbar .menu li {
     list-style: none;
-    display: inline-block;
+    display: inline-block; 
 }
-
 .navbar .menu li a {
     display: block;
     color: #fff;
@@ -62,6 +63,18 @@ html{
     color: crimson;
 }
 
+#nav-icon{
+    margin-left: 35px;
+    cursor:pointer;
+}
+.navbar i{
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar i:hover{
+    color: crimson;
+}
 /* menu btn styling */
 .menu-btn {
     color: #fff;
@@ -96,13 +109,11 @@ html{
 }
 
 
-
-
 /* home section styling */
 
 .home {
     display: flex;
-    background: url("/portfolio/src/images/banner2.jpg") no-repeat center;
+    background: url("/src/images/banner2.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
