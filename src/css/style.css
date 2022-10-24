@@ -15,9 +15,7 @@ html{
     margin: auto;
 }
 
-.dark-theme{
-    color: black;
-}
+
 /* navbar styling */
 
 .navbar {
@@ -270,7 +268,7 @@ section .title::after {
 }
 
 /* services section styling */
-.services, .teams {
+.services, .contact {
     color: #fff;
     background: #111;
 }
@@ -516,7 +514,7 @@ section .title::after {
 }
 
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #fff;
 }
 
 .contact .right form .fields{
